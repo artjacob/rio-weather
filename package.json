@@ -1,0 +1,40 @@
+{
+	"name": "rio-weather",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.498.0",
+		"date-fns": "^3.3.1",
+		"fs-extra": "^11.2.0",
+		"next": "14.1.0",
+		"react": "^18",
+		"react-dom": "^18",
+		"sharp": "^0.33.2"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.4",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "14.1.0",
+		"prettier": "^3.2.4",
+		"typescript": "^5"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"trailingComma": "all",
+		"arrowParens": "avoid",
+		"semi": false,
+		"printWidth": 100,
+		"useTabs": true,
+		"tabWidth": 2,
+		"endOfLine": "lf"
+	}
+}
